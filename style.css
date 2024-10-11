@@ -1,0 +1,533 @@
+/* MENU DE ARRIVA */
+
+body {
+    background-color: #f1f1f1;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    position: fixed; /* Fija el header */
+    top: 5px; /* Posición en la parte superior */
+    left: 5px;
+    right: 5px;
+    z-index: 1000; /* Asegura que esté sobre otros elementos */
+}
+
+.logo {
+    width: 15px;
+    height: 15px;
+}
+
+
+
+#header li {
+    margin: 0.5% 0.5%;
+}
+
+#header a {
+
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Añadir transición suave */
+}
+
+#header a:hover {
+    background-color: #e0e0e0;
+}
+
+
+/*Contenedor principal */
+#wrapper {
+    width: 50%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#titulo {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 0;
+}
+
+.subTitulo {
+    font-size: 75px;
+    line-height: 1.0555555556;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: auto;
+    margin-top:10px;
+}
+
+#texto {
+    color: #929292;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#contenedorHL {
+    display: flex;
+    min-height: 400px;
+    justify-content: space-between;
+}
+
+#contenedorHL > * {
+    margin-top: 50px;
+    background-color: rgb(34, 34, 34);
+    width: 45%;
+    min-width: 100px;
+    border-radius: 30px;
+}
+
+
+.imgSafety{
+    align-items: center;
+    width: 60%;
+   margin: auto;
+ 
+    object-fit: cover; /* Para que la img se comporte como quiero*/
+   
+}
+
+ /* Contenedores */
+.downContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.imgsPresentacion {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover; /* Para que la img se comporte como quiero*/
+    height: 300px;
+}
+
+h3 {
+    color: #e0e0e0;
+    font-size: 20px;
+    line-height: 1.0555555556;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.subP {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #e0e0e0;
+    font-size: 26px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-align: center; /* Para centrar el texto si es multilinea */
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+ /* FOOTER */
+
+ #footer {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+ }
+
+ #footer li {
+    margin: 0.5% 0.5%;
+}
+
+#footer a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#footer a:hover {
+    font-weight:905;
+}
+
+
+ /* ESTILOS SEGUN HTML */
+
+ #OOO{
+    background-color: rgb(184, 184, 184);
+ }
+
+ #FAQQQ{
+    background-color: rgb(184, 184, 184);
+ }
+
+ #SAFF{
+    background-color: rgb(184, 184, 184);
+ }
+
+ #MDMAAA {
+    background-color: rgb(184, 184, 184);
+ }
+
+ #WEEDDD {
+    background-color: rgb(184, 184, 184);
+ }
+
+ #COCCC {
+    background-color: rgb(184, 184, 184);
+ }
+
+ #POPPP {
+    background-color: rgb(184, 184, 184);
+ }
+
+
+
+ /* TIENDAS */
+
+#wrapperDos {
+    width: 80%;
+    margin: auto;
+    margin-top: 105px;
+}
+.titulillo {
+    font-size: 35px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.encavezado  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombre {
+    font-size: 75px;
+    line-height: 1.0555555556;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: auto;
+    margin-top:10px;
+}
+
+.slogan {
+    color: #444444;
+    font-size: 28px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.drugContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.drugContainer > * {
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    min-height: 500px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imgsDrug {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover; /* Para que la img se comporte como quiero*/
+    height: 300px;
+}
+
+/* Añadir transición y transformación al hover */
+.drug {
+    transition: transform 0.5s ease; /* Suaviza la transición */
+    
+}
+
+
+
+.drug:hover {
+    transform: scale(1.02); /* Aumenta el tamaño al 105% */
+}
+
+#drugMidUno {  
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+}
+
+.drugTitle {
+    font-size: 30px;
+    line-height: 1.0555555556;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: auto;
+    margin-top:10px;
+    margin-left: 20px;
+}
+
+.description {
+    color: #2c2929;
+    font-size: 20px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-left: 20px;
+}
+
+.precios {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy {
+    border-radius: 10px;
+    width: 30%;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Añadir transición suave */
+
+}
+
+.buy:hover {
+    background-color: #2c2929;
+    color: #e0e0e0;
+}
+
+ /* FAQ */
+
+ .faq {
+    text-align: justify;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: auto;
+    margin-top: 30px;
+ 
+}
+ .divisor {
+    width: 100%;
+    background-color:#e0e0e0;
+    min-height: 5px;
+    margin-bottom: 20px;
+
+ }
+   /* BOTON SUBIR AL MENU EN LA MEDIA QUERI */
+ .safety {
+    text-align: justify;
+    width: 70%;
+    min-height: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: auto;
+    margin-top: 30px;
+ 
+}
+
+  /* BOTON SUBIR AL MENU EN LA MEDIA QUERI */
+  .contBotonSubirMenu {
+    position: fixed; 
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000; 
+    bottom: 70px; 
+    right: 15px;  
+}
+
+.botonSubirMenu {
+    visibility: hidden;
+    border-radius: 50%; /* Redondea completamente el botón */
+    background-color: #c2c2c2;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white; /* Color del ícono o texto en el botón */
+    font-size: 35px; /* Ajusta el tamaño del contenido */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Añadir transición suave */
+}
+
+.botonSubirMenu:hover {
+    background-color: #333; /* Cambia el color al hacer hover */
+    
+}
+
+
+
+ /* Media queryssssssssssssssssssssssss */
+
+
+@media(max-width: 1100px) {
+
+    .botonSubirMenu {
+        visibility: visible;
+        
+    }
+    
+
+    .faq {
+        width: 80%;
+    }
+    .drugTitle {
+        font-size: 25px;
+       
+    }
+
+.titulillo {
+    margin-top: 300px;
+}
+    
+  
+#wrapper {
+    width: 70%;
+}
+
+#contenedorHL {
+    flex-direction: column;
+}
+
+#contenedorHL > * {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+#titulo {
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+.subTitulo {
+    font-size: 35px;
+}
+
+#texto {
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.imgsPresentacion {
+    height: 100px;
+}
+
+h3 {
+    font-size: 20px;
+}
+.subP {
+    font-size: 15px;
+}
+
+.nombre {
+    font-size: 35px;
+}
+
+
+/* PAGINA VENTAS */
+#wrapperDos {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   width: 90%;
+}
+
+.encavezado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.drugContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.drug {
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+#drugMidUno {  
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.imgsDrug {
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    object-fit: cover; /* Para que la img se comporte como quiero*/
+    height: 250px;
+}
+
+/* MENU ENCABEZADO*/
+
+#header {
+    position:absolute;
+flex-direction: column;
+}
+
+#header li {
+    width: 100%; /* Cada botón ocupará el 100% del ancho */
+}
+
+#footer {
+    flex-direction: column;
+ }
+
+
+
+}
