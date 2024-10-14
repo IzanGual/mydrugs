@@ -1,8 +1,10 @@
 /* MENU DE ARRIVA */
 
 body {
-    background-color: #f1f1f1;
+    background-color: #f0f0f0; /* Color de fondo base */
 }
+
+
 #header {
     display: flex;
     justify-content: center;
@@ -19,11 +21,83 @@ body {
     z-index: 1000; /* Asegura que esté sobre otros elementos */
 }
 
-.logo {
-    width: 15px;
-    height: 15px;
+#greenPortada {
+    position: absolute;
+    margin-top: 306.8px;
+    left: 5%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 70deg;
+    z-index: -1000; 
 }
 
+
+#purplePortada {
+    position: absolute;
+    margin-top: 606.8px;
+    left: 5%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 40deg;
+    z-index: -1000; 
+}
+
+#yellowPortada {
+    position: absolute;
+    margin-top: 856.8px;
+    left: 5%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 110deg;
+    z-index: -1000; 
+}
+
+#bluePortada {
+    position: absolute;
+    margin-top: 206.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 200deg;
+    z-index: -1000; 
+}
+
+#redPortada {
+    position: absolute;
+    margin-top: 506.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 300deg;
+    z-index: -1000; 
+}
+
+#pinkPortada {
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#logoIMGDOS {
+    position: absolute;
+    margin-top: 6px;
+    margin-left: 5px;
+    border-radius:20px ;
+    width: 100px;
+}
+
+
+#logoIMG {
+    position: absolute;
+    margin-top: 26.8px;
+    margin-left: 5px;
+    border-radius:20px ;
+    width: 100px;
+}
 
 
 #header li {
@@ -321,6 +395,7 @@ h3 {
 }
 
 .buy {
+    margin-bottom: 20px;
     border-radius: 10px;
     width: 30%;
     display: block;
@@ -409,6 +484,57 @@ h3 {
 
 
 @media(max-width: 1100px) {
+
+    #greenPortada {
+        position: absolute;
+        margin-top: 306.8px;
+        left: 2%;
+        border-radius:20px ;
+        width: 40px;
+        rotate: 70deg;
+    }
+    
+    
+    #purplePortada {
+
+        margin-top: 606.8px;
+        left: 2%;
+
+        width: 20px;
+
+    }
+    
+    #yellowPortada {
+        margin-top: 856.8px;
+        left: 2%;
+        width: 25px;
+    }
+    
+    #bluePortada {
+        margin-top: 406.8px;
+        left: 95%;
+        width: 20px;
+    }
+    
+    #redPortada {
+        margin-top: 625.8px;
+        left: 93%;
+        width: 30px;
+    }
+    
+    #pinkPortada {
+        left: 95%;
+        width: 22px;
+        margin-top: 906.8px;
+    }
+    
+    
+
+
+
+
+
+
 
     .botonSubirMenu {
         visibility: visible;
@@ -527,7 +653,6 @@ flex-direction: column;
 #footer {
     flex-direction: column;
  }
-
 
 
 }
