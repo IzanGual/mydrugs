@@ -82,22 +82,96 @@ body {
     z-index: -1000; 
 }
 
-#logoIMGDOS {
+#catorce {
+    visibility: hidden;
     position: absolute;
-    margin-top: 6px;
-    margin-left: 5px;
+    margin-top: 806.8px;
+    left: 80%;
     border-radius:20px ;
-    width: 100px;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#quince {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#dieziseis {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#diezisiete {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#dieziocho {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#diezinueve {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#veinte {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000; 
+}
+
+#veinteiuno {
+    visibility: hidden;
+    position: absolute;
+    margin-top: 806.8px;
+    left: 80%;
+    border-radius:20px ;
+    width: 200px;
+    rotate: 80deg;
+    z-index: -1000;  
 }
 
 
-#logoIMG {
-    position: absolute;
-    margin-top: 26.8px;
-    margin-left: 5px;
-    border-radius:20px ;
-    width: 100px;
-}
+
 
 
 #header li {
@@ -178,10 +252,8 @@ body {
 .imgSafety{
     align-items: center;
     width: 60%;
-   margin: auto;
- 
+    margin: auto;
     object-fit: cover; /* Para que la img se comporte como quiero*/
-   
 }
 
  /* Contenedores */
@@ -239,6 +311,9 @@ h3 {
 
  #footer li {
     margin: 0.5% 0.5%;
+}
+footer ul{
+    padding-left: 0;
 }
 
 #footer a {
@@ -399,7 +474,7 @@ h3 {
     border-radius: 10px;
     width: 30%;
     display: block;
-    padding: 10px 20px;
+    padding: 3% 5%;
     border: 1px solid #000;
     color: black;
     font-weight: bold;
@@ -444,7 +519,6 @@ h3 {
     padding-right: 30px;
     margin: auto;
     margin-top: 30px;
- 
 }
 
   /* BOTON SUBIR AL MENU EN LA MEDIA QUERI */
@@ -460,7 +534,7 @@ h3 {
 .botonSubirMenu {
     visibility: hidden;
     border-radius: 50%; /* Redondea completamente el botón */
-    background-color: #c2c2c2;
+    background-color: #333;
     width: 35px;
     height: 35px;
     display: flex;
@@ -473,17 +547,85 @@ h3 {
     transition: background-color 0.3s ease, color 0.3s ease; /* Añadir transición suave */
 }
 
-.botonSubirMenu:hover {
-    background-color: #333; /* Cambia el color al hacer hover */
-    
-}
-
 
 
  /* Media queryssssssssssssssssssssssss */
 
+ @media(max-width: 500px) {
+
+    #catorce {
+        visibility: visible;
+        margin-top: 1325.8px;
+        left: 93%;
+        width: 26px;
+        rotate: 160deg;
+    }
+    
+    #quince {
+        visibility: visible;
+        margin-top: 1125.8px;
+        left: 1%;
+        width: 30px;
+        rotate: 60deg;
+    }
+    
+    #dieziseis {
+        visibility: visible;
+        margin-top: 1525.8px;
+        left: 1%;
+        width: 20px;
+        rotate: 10deg;
+    }
+    
+    #diezisiete {
+        visibility: visible;
+        margin-top: 1760.8px;
+        left: 93%;
+        width: 24px;
+        rotate: 100deg;
+    }
+    
+    #dieziocho {
+        visibility: visible;
+        margin-top: 2060.8px;
+        left: 3%;
+        width: 24px;
+        rotate: 100deg;
+    }
+    
+    #diezinueve {
+        visibility: visible;
+        margin-top: 2460.8px;
+        left: 93%;
+        width: 24px;
+        rotate: 100deg; 
+    }
+
+    #veinte {
+        visibility: visible;
+        margin-top: 2760.8px;
+        left: 1%;
+        width: 30px;
+        rotate: 60deg; 
+    }
+    
+    #veinteiuno {
+        visibility: visible;
+        margin-top: 3000.8px;
+        left: 90%;
+        width: 33px;
+        rotate: 50deg; 
+    }
+
+ }
+
 
 @media(max-width: 1100px) {
+
+    .safety {
+        text-align: start;
+       
+    }
 
     #greenPortada {
         position: absolute;
@@ -491,7 +633,7 @@ h3 {
         left: 2%;
         border-radius:20px ;
         width: 40px;
-        rotate: 70deg;
+        rotate: 100deg;
     }
     
     
@@ -528,13 +670,6 @@ h3 {
         margin-top: 906.8px;
     }
     
-    
-
-
-
-
-
-
 
     .botonSubirMenu {
         visibility: visible;
@@ -544,6 +679,7 @@ h3 {
 
     .faq {
         width: 80%;
+        text-align: start;
     }
     .drugTitle {
         font-size: 25px;
